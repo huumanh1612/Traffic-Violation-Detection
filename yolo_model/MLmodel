@@ -1,0 +1,25 @@
+flavors:
+  python_function:
+    artifacts:
+      classes_path:
+        path: artifacts\classes.txt
+        uri: Assets/Trained_Model/classes.txt
+      config_path:
+        path: artifacts\yolov3.cfg
+        uri: Assets/Trained_Model/yolov3/yolov3.cfg
+      weights_path:
+        path: artifacts\yolov3.weights
+        uri: Assets/Trained_Model/yolov3/yolov3.weights
+    cloudpickle_version: 3.0.0
+    code: null
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.pyfunc.model
+    python_model: python_model.pkl
+    python_version: 3.12.4
+    streamable: false
+mlflow_version: 2.14.3
+model_size_bytes: 248026854
+model_uuid: 00512ca713e542aea3271a239a1ba67e
+utc_time_created: '2024-07-17 17:19:56.440916'
